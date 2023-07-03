@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #13a3a8
+}
+
+p {
+    color: red;
+}
+
+.exemplo-back {
+    height: 300px;
+    background-color: gray;
+    background-image: url(../img/pexels-piccinng-3075993.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
