@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: black;
+    text-align: center;
+    letter-spacing: -1px
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-indent: 50px;
+    word-spacing: 15px
+}
+
+.exemplo-back {
+    height: 100px;
+    background-image: url(../img/pexels-adrien-olichon-2387793.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.botao {
+    margin-left: 33px;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: blue;
+}
+
+.teste {
+    max-width: 800px;
+    height: 250px;
+    background: cyan;
+}
