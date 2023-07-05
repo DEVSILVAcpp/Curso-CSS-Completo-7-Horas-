@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap');
+
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: black;
+    text-align: center;
+    letter-spacing: -1px;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-indent: 50px;
+    word-spacing: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.exemplo-back {
+    height: 100px;
+    background-image: url(../img/pexels-adrien-olichon-2387793.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.botao {
+    margin-left: 33px;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: blue;
+}
+
+.teste {
+    max-width: 800px;
+    height: 250px;
+    background: cyan;
+}
+
+a.botao1 {
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 4px solid greenyellow;
+    border-radius: 5px;
+}
+
+a.botao1:hover {
+    background: rgb(6, 211, 6);
+    padding: 12px;
+    border: 4px solid rgb(80, 129, 6);
+}
+
+a.botao2 {
+    text-decoration: none;
+    padding: 10px;
+    border: 5px double blue;
+    color: blue;
+}
+
+a.botao2:hover {
+    text-decoration: underline;
+    padding: 8px;
+    background: blue;
+    color: white;
+}
+
+a.botao3 {
+    color: black;
+    text-decoration: none;
+}
+
+a.botao3:hover {
+    border-bottom: 3px solid rgb(255, 5, 0);
+}
+
+a.botao4 {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+a.botao4:hover {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a.botao5 {
+    cursor: help;
+}
+
