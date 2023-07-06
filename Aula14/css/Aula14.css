@@ -1,0 +1,21 @@
+.borda {
+    border: 1px solid red;
+}
+
+.azul {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.verde {
+    background: green;
+}
+
+div {
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+}
